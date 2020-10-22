@@ -14,7 +14,7 @@ int tich(int a, int b);
 int main()
 {
 	cout << "\n Tong la:";
-	
+	Tong(a,b);
 	system("pause");
 	return 0;
 }
