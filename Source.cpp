@@ -1,12 +1,20 @@
 #include <iostream>
 
 using namespace std;
-int chuvihinhvuong(int a, int b);
-int chuvihinhcn(int a, int b);
-int chuvihinhtron(int a, int b);
-int dientichhinhvuong(int a, int b);
-int dientichhinhcn(int a, int b);
-int dientichhinhtron(int a, int b);
+int chuvihinhvuong(int a, int b)
+int chuvihinhcn(int a, int b)
+int chuvihinhtron(int a, int b)
+
+int dientichhinhvuong(int a, int b)
+int dientichhinhcn(int a, int b)
+int dientichhinhtron(int a)
+{
+	float pi = 3,14;
+
+	cout<<"Dien tich hinh tron la: ";
+	a = pi*a*a;
+	return a;
+}
 int tong(int a, int b)
 {
 	int c;
@@ -42,6 +50,7 @@ int main()
 	hieu(a,b);
 	tich(a,b);
 	thuong(a,b);
+	dientichhinhtron(a);
 	system("pause");
 	return 0;
 }
