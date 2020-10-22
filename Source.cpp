@@ -1,18 +1,20 @@
 #include <iostream>
 
 using namespace std;
-int tong(int a, int b);
-int hieu(int a, int b);
-int tich(int a, int b);
-float thuong(int a, int b);
+int tong(int a, int b)
 {
-	int a,b,c;
-	c= a/b;
+	int c;
+	cout << "\n Tong la:";
+	cin >> a >> b;
+	return c = a+ b;
 	
+}
+int hieu(int a, int b);
+int tich(int a, int b);	
 int main()
 {
-	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-
+	cout << "\n Tong la:";
+	
 	system("pause");
 	return 0;
 }
