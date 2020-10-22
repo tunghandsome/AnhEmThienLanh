@@ -17,11 +17,17 @@ int hieu(int a, int b);
 	return s = a- b;
 }
 int tich(int a, int b);	
+int z;
+	cout << "\n tich la:";
+	cin >> a >> b;
+	return z = a* b;
+}
 int main()
 {
 	cout << "\n Tong la:";
 	Tong(a,b);
 	hieu(a,b);
+	tich(a,b);
 	system("pause");
 	return 0;
 }
