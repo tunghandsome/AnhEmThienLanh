@@ -1,6 +1,12 @@
 #include <iostream>
 
 using namespace std;
+int chuvihinhvuong(int a, int b);
+int chuvihinhcn(int a, int b);
+int chuvihinhtron(int a, int b);
+int dientichhinhvuong(int a, int b);
+int dientichhinhcn(int a, int b);
+int dientichhinhtron(int a, int b);
 int tong(int a, int b)
 {
 	int c;
