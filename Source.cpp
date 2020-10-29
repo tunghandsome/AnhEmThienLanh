@@ -65,6 +65,12 @@ int z;
 	cin >> a >> b;
 	return z = a/ b;
 }
+int randomcong()
+{
+	int s=0;
+	s=rand()+rand();
+	return s;
+}
 
 void main()
 {
@@ -78,5 +84,6 @@ void main()
 	chuvihinhcn(a, b);
 	dientichhinhvuong(a);
 	chuvihinhvuong(a);
+	cout<<"\nTong random :"<<randomcong();
 	system("pause");
 }
