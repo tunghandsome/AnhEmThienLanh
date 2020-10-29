@@ -70,6 +70,12 @@ int z;
 	cin >> a >> b;
 	return z = a/ b;
 }
+int randomtru()
+{
+	int s=0;
+	s=rand()-rand();
+	return s;
+}
 
 void main()
 {
@@ -84,6 +90,6 @@ void main()
 	dientichhinhvuong(a);
 	chuvihinhvuong(a);
 	chuvihinhtron(p,r,cv);
-	
+	cout << "\n tong random la:" << randomtru();
 	system("pause");
 }
