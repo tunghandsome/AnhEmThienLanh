@@ -23,7 +23,12 @@ void dientichhinhcn(float a, float b)
 	cin >> b;
 	cout << "Chu vi hinh chu nhat la: " << (a + b) * 2;
 }
-int chuvihinhtron(int a, int b)
+void chuvihinhtron(int r, float cv, float p)
+{
+	p = 3.14;
+	cv = 2 * p*r;
+	cout << "Chu vi hinh tron: " << cv << endl;
+}
 void dientichhinhvuong(int a)
 {
 	cout<<"Nhap canh a:";
@@ -68,7 +73,7 @@ int z;
 
 void main()
 {
-	float a, b;
+	float a, b,p,r,cv;
 	cout << "\n Tong la:" << Tong(a, b);
 	cout << "\n Tong la:" << hieu(a,b);
 	cout << "\n Tong la:" << tich(a,b);
@@ -78,5 +83,7 @@ void main()
 	chuvihinhcn(a, b);
 	dientichhinhvuong(a);
 	chuvihinhvuong(a);
+	chuvihinhtron(p,r,cv);
+	
 	system("pause");
 }
