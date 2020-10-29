@@ -71,6 +71,12 @@ int randomcong()
 	s=rand()+rand();
 	return s;
 }
+int randomtru()
+{
+	int s=0;
+	s=rand()-rand();
+	return s;
+}
 
 void main()
 {
@@ -85,5 +91,6 @@ void main()
 	dientichhinhvuong(a);
 	chuvihinhvuong(a);
 	cout<<"\nTong random :"<<randomcong();
+	cout<<"\nTong random :"<<randomtru();
 	system("pause");
 }
