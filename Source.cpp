@@ -2,11 +2,24 @@
 
 using namespace std;
 int chuvihinhvuong(int a, int b)
-int chuvihinhcn(int a, int b)
+void chuvihinhcn(float a, float b)
+{
+	cout << "Nhap chieu dai= ";
+	cin >> a;
+	cout << "Nhap chieu rong= ";
+	cin >> b;
+	cout << "Dien tich hinh chu nhat la: " << a * b << "\n";
+}
+void dientichhinhcn(float a, float b)
+{
+	cout << "Nhap chieu dai= ";
+	cin >> a;
+	cout << "Nhap chieu rong= ";
+	cin >> b;
+	cout << "Chu vi hinh chu nhat la: " << (a + b) * 2;
+}
 int chuvihinhtron(int a, int b)
-
 int dientichhinhvuong(int a, int b)
-int dientichhinhcn(int a, int b)
 int dientichhinhtron(int a)
 {
 	float pi = 3,14;
@@ -43,14 +56,15 @@ int z;
 	return z = a/ b;
 }
 
-int main()
+void main()
 {
-	cout << "\n Tong la:";
-	Tong(a,b);
-	hieu(a,b);
-	tich(a,b);
-	thuong(a,b);
+	float a, b;
+	cout << "\n Tong la:" << Tong(a, b);
+	cout << "\n Tong la:" << hieu(a,b);
+	cout << "\n Tong la:" << tich(a,b);
+	cout << "\n Tong la:" << thuong(a,b);
 	dientichhinhtron(a);
+	dientichhinhcn(a, b);
+	chuvihinhcn(a, b);
 	system("pause");
-	return 0;
 }
