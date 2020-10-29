@@ -23,7 +23,7 @@ void dientichhinhcn(float a, float b)
 	cin >> b;
 	cout << "Chu vi hinh chu nhat la: " << (a + b) * 2;
 }
-void chuvihinhtron(int r, float cv, float p)
+void chuvihinhtron(float r, float cv, float p)
 {
 	p = 3.14;
 	cv = 2 * p*r;
