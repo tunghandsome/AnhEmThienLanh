@@ -1,7 +1,12 @@
 #include <iostream>
 
 using namespace std;
-int chuvihinhvuong(int a, int b)
+void chuvihinhvuong(int a)
+{
+	cout<<"Nhap canh a:";
+	cin>>a;
+	cout<<"chuvi hinh vuong la:"<<a*4;
+}
 void chuvihinhcn(float a, float b)
 {
 	cout << "Nhap chieu dai= ";
@@ -19,7 +24,12 @@ void dientichhinhcn(float a, float b)
 	cout << "Chu vi hinh chu nhat la: " << (a + b) * 2;
 }
 int chuvihinhtron(int a, int b)
-int dientichhinhvuong(int a, int b)
+void dientichhinhvuong(int a)
+{
+	cout<<"Nhap canh a:";
+	cin>>a;
+	cout<<"dt hinh vuong la:"<<a*a;
+}
 int dientichhinhtron(int a)
 {
 	float pi = 3,14;
@@ -66,5 +76,7 @@ void main()
 	dientichhinhtron(a);
 	dientichhinhcn(a, b);
 	chuvihinhcn(a, b);
+	dientichhinhvuong(a);
+	chuvihinhvuong(a);
 	system("pause");
 }
